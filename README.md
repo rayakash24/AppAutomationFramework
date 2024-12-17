@@ -217,7 +217,7 @@ name.
 
 ## :pushpin: Report (Extent reports)
 
-:point_right: Using Extent report we are getting the no. of Passed/failed/skip count and proper logs for each failure and it will take the screenshot for the point where its fail 
+:point_right: Using Extent report we are getting the no. of Passed/failed/skiped count and proper logs for each failure and it will take the screenshot for the point where the test cases failed.
 
 
 
