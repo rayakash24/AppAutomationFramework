@@ -1,1 +1,2 @@
 # AppAutomationFramework
+This project uses page object factory pattern to avoid tests being too sensitive to UI changes. This project uses data driven approach in order to keep data separate from functional test logic and to aid with quick scaling. This project uses testNG test framework for its sophisticated features such as html run reports, ability to group and prioritize tests, parallel testing, data parameterization. This project is built using maven tool for its simplicity of use w.r.t downloading dependencies and building the project.
