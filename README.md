@@ -26,14 +26,6 @@ This project is built using maven tool for its simplicity of use w.r.t downloadi
 - Validates that home page is displayed
 - Exits
 
-## Test run results - testng html report
-![picture](test-output/test-result/testResult.png)
-
-## test flow screenshots
-![picture](test-output/MaterialLoginScreenshots/loginPage.png)
-![picture](test-output/MaterialLoginScreenshots/LoginPagewithKeypad.png)
-![picture](test-output/MaterialLoginScreenshots/LoginSuccessPage.png)
-
 
 # Appium Mobile Automation Framework
 
@@ -99,10 +91,6 @@ To check ios set up `appium-doctor --ios`
 2) Turn on the developer options in android mobile
 3) Enable USB debugging
 4) Run command `adb devices` in cmd prompt to check whether the device is recognised
-
-## :pushpin: Mirror android/ios device to your desktop
-
-1) Download [Vysor](https://www.vysor.io/)
 
 ## :pushpin: Start Android Emulator from Command line
 
@@ -200,7 +188,7 @@ variable `APPIUM_HOME = <path to npm folder>\node_modules\appium\build\lib` wher
 
 :point_right: Supports parallel and sequential execution of tests.
 
-:point_right: Ability to capture screen(video) recording of tests on Android and iOS. Configurable
+:point_right: Ability to capture screenshot of tests on Android and iOS. Configurable
 through `config.properties`
 
 :point_right: Supports capturing screenshots for passed/failed/skipped steps which is configurable
@@ -229,9 +217,9 @@ name.
 
 ## :pushpin: Report (Extent reports)
 
-![Web capture_24-1-2022_224531_](https://user-images.githubusercontent.com/48508827/150834585-bf17de21-9e56-494c-b0f6-9ba8451638e6.jpeg)
+(https://user-images.githubusercontent.com/48508827/150834585-bf17de21-9e56-494c-b0f6-9ba8451638e6.jpeg)
 
-![Web capture_24-1-2022_224634_](https://user-images.githubusercontent.com/48508827/150834616-3c15ee3a-67cd-4e90-90c7-1f664848fd82.jpeg)
+(https://user-images.githubusercontent.com/48508827/150834616-3c15ee3a-67cd-4e90-90c7-1f664848fd82.jpeg)
 
 
 
