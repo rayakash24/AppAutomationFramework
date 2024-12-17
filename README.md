@@ -9,17 +9,17 @@ This project is built using maven tool for its simplicity of use w.r.t downloadi
 
 - JAVA SDK latest version
 - Android studio with emulator and devices created in it.
-- Run a device from android emulator
-- Set environment variable ANDROID_HOME, JAVA_HOME
-- Start appium server in local
+- Run a device from android emulator and check with command adb devices
+- Set environment variable ANDROID_HOME, JAVA_HOME,
+- Start appium server in local using appium
 
 ## How to run
-- Import the project as Maven project in eclipse
-- Open src/main/java/materialLogin/MaterialLoginSignInTest.java
+- Import the project as Maven project in intellij IDea
+- Open src/main/java/TestClass/Android/LoginTest.java
 - Right click the file and Run as> TestNG Test
 
 ## What this project does
-- Loads the app MaterialLoginExample.apk
+- Loads the app-telus.apk
 - Enters email and password.
 - Clicks Login button
 - Validates that home page is displayed
