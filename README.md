@@ -217,9 +217,7 @@ name.
 
 ## :pushpin: Report (Extent reports)
 
-(https://user-images.githubusercontent.com/48508827/150834585-bf17de21-9e56-494c-b0f6-9ba8451638e6.jpeg)
-
-(https://user-images.githubusercontent.com/48508827/150834616-3c15ee3a-67cd-4e90-90c7-1f664848fd82.jpeg)
+:point_right: Using Extent report we are getting the no. of Passed/failed/skip count and proper logs for each failure and it will take the screenshot for the point where its fail 
 
 
 
