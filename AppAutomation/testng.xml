@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="TestUtils.Listeners"/>
+    </listeners>
+    <test thread-count="8" name="End To End IOS Framework Test">
+        <classes>
+            <class name="TestClass.IOS.DemoTestIOS">
+                <methods>
+                    <include name="uiCatalogueDemoActions"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test thread-count="8" name="End To End Android Framework Test">
+        <classes>
+            <class name="TestClass.android.LoginTest">
+                <methods>
+                    <include name="signInAuthTest"/>
+                    <include name="loginPage"/>
+                    <include name="homePageVerification"/>
+                    <include name="loginPageNameChangeDirectly"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
